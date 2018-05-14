@@ -15,5 +15,25 @@ Algortimos para lista posicionada, indexada y ordenada*/
 class Algoritmos{
   Algoritmos();
   
+  public: 
+  void listarIndexada(ListaI);
+bool simetricaIndexada(ListaI);
+bool buscarIndexada(int, ListaI);
+void invertirIndexada(ListaI&);
+void eliminarRepetidosIndexada(ListaI&);
+bool subListaIndexada(ListaI, ListaI);
+bool igualesIndexada(ListaI, ListaI);
+void burbujaOriginalIndexada(ListaI);
+void burbujaBidireccionalIndexada(ListaI);
+void seleccionIterativaIndexada(ListaI);
+void seleccionRecursivaIndexada(ListaI);
+void seleccionRecursivaPilaIndexada(ListaI);
+void insercionIndexada(ListaI);
+void quickSortAhoIndexada(ListaI);
+void quickSortIndexada(ListaI); //si la sublista tiene menos de 50 elementos se usa insercion
+void mergeSortIndexada(ListaI);
+void unionListasIndexadas(ListaI);
+void unionListasDesordenadasIndexadas(ListaI);
+  
 };
 #endif
